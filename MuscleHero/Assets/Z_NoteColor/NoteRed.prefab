@@ -128,7 +128,7 @@ MonoBehaviour:
   noteObject: {fileID: 54877907110504066}
   effectWater: {fileID: 1687118924408352, guid: 77c69ec12208c4c4380d15e30b6f8f68,
     type: 2}
-  effectSpawn: {fileID: 100000, guid: 77ec3c4e07a36814fb3169ecef41b50a, type: 2}
+  effectSpawn: {fileID: 100004, guid: 7867af58a6ec48846ae807eb4022fbaa, type: 2}
   v: {x: 0, y: 0, z: 0}
 --- !u!114 &114744661328378514
 MonoBehaviour:
