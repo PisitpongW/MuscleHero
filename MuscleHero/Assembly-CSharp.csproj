@@ -54,7 +54,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Activator.cs" />
+     <Compile Include="Assets\AudioController.cs" />
+     <Compile Include="Assets\CameraRotation.cs" />
+     <Compile Include="Assets\CreateCSV.cs" />
      <Compile Include="Assets\DestroyNote.cs" />
+     <Compile Include="Assets\DestroyRain.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
@@ -62,6 +66,7 @@
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+     <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
@@ -72,13 +77,22 @@
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightFlicker.cs" />
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\MenuController.cs" />
      <Compile Include="Assets\NoteController.cs" />
      <Compile Include="Assets\NoteMovement.cs" />
+     <Compile Include="Assets\RainEnvironment.cs" />
+     <Compile Include="Assets\RainMovement.cs" />
+     <Compile Include="Assets\ReadUDP.cs" />
+     <Compile Include="Assets\RotateEnvironment.cs" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
      <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
      <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
+     <None Include="Assets\Textures\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\Jupiter\LICENSE.txt" />
      <None Include="Assets\Lowpoly paper boats\doc\readme.txt" />
+     <None Include="Assets\Textures\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\Luminaris Starship\Documentation\Readme Luminaris.txt" />
      <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/Work/BCI/iCreate_2019/MuscleHero/MuscleHero/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

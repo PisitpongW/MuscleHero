@@ -8,6 +8,8 @@ TagManager:
   - Activator
   - FxTemporaire
   - Ground
+  - MenuController
+  - UDPReceiver
   layers:
   - Default
   - TransparentFX

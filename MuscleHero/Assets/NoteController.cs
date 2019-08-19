@@ -6,15 +6,14 @@ public class NoteController : MonoBehaviour
     public GameObject noteColor;
 	public GameObject noteLeft, noteMiddle, noteRight;
 	public Vector3 spawnValue;
-	public float spawnWait;
-	public float waitBefore;
+	public float spawnWait, waitBefore;
 	public float con;
 	public int index;
-	private bool gameOver;
+	public bool isGameOver;
 	private Color col;
 	void Start () 
 	{
-		gameOver = false;
+		isGameOver = false;
 		StartCoroutine(NoteWave());
 	}
 
@@ -31,12 +30,8 @@ public class NoteController : MonoBehaviour
 			Quaternion spawnRotation = Quaternion.identity;
 			Instantiate(noteColor, spawnPosition, spawnRotation);
 			yield return new WaitForSeconds(spawnWait);
-			if(gameOver) break;
+			if(isGameOver) break;
 		}
 		print("End note spawning");
-	}
-	public void GameOver()
-	{
-		gameOver = true;
 	}
 }
